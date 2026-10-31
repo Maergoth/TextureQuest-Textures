@@ -1,0 +1,13 @@
+{
+  "archive_count": 310,
+  "category_projection_sha256": "414b1d244ec956d7bc4aa07715a3f2f6678a2de8773763e421743797d8deb314",
+  "named_replacements": 24693,
+  "qualification": "DDS delivery fork only. Existing published PAKs remain unchanged. No unreleased generated images included.",
+  "release_manifest_sha256": "77d6d134a956896067e12b28e187b185a76dbd1facd7c34788a38cb663eafcad",
+  "schema": "texturequest-dds-export-provenance-v1",
+  "selection_catalog_handoff_sha256": "f1be0a6d7d1b1e65f9e2df74c499ddda5502809f6c382442b6c9e349bdf4bae4",
+  "source_commit": "4802564bb64f9bb052703dd053db5dc943e49de5",
+  "source_repository": "https://github.com/Maergoth/TextureQuest",
+  "tested_graphics_index_sha256": "89decab85eab73b22ecb0d0ee1f88e1516bec58b596b52480cb4e4c0a0d506c4",
+  "texture_version": "1.2.3"
+}
