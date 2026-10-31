@@ -1,7 +1,7 @@
 # DDS source v1
 
 This is a new data contract, not a drop-in replacement for the current PAK manifest.
-All checksums are SHA-256. Version 1.2.3 identifies the texture content, independently
+All checksums are SHA-256. Version 1.2.4 identifies the texture content, independently
 of the installer app version.
 
 texture-source.json binds the exact index and all ZIP chunks. The index binds every

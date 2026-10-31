@@ -6,9 +6,10 @@ still uses the existing PAK releases.
 
 ## Downloads
 
-[Texture source 1.2.3](https://github.com/Maergoth/TextureQuest-Textures/releases/tag/v1.2.3)
-contains only the **24,693 released replacement textures**, including the recovered
-Maj'Dul textures. It excludes unfinished generation.
+[Texture source 1.2.4](https://github.com/Maergoth/TextureQuest-Textures/releases/tag/v1.2.4)
+contains **24,694 released replacement textures**, including recovered Maj'Dul content,
+corrected shared Fae/Arasai bodies and Qeynos stone trim with its companion map.
+It excludes the unfinished generation batch.
 
 - **texture-source.json**: download URLs, sizes and SHA-256 checksums.
 - **texture-index.json**: original asset names, DDS objects, graphics fingerprints and categories.
@@ -16,10 +17,11 @@ Maj'Dul textures. It excludes unfinished generation.
 - **SHA256SUMS.txt**: checksums for the complete release.
 
 Stable manifest for future integration:
-https://github.com/Maergoth/TextureQuest-Textures/releases/download/v1.2.3/texture-source.json
+https://github.com/Maergoth/TextureQuest-Textures/releases/download/v1.2.4/texture-source.json
 
-The DDS bytes are extracted unchanged from the published packs, including headers,
-mips and tails. Each distinct DDS is stored once as dds/&lt;sha256&gt;.dds; the index
+DDS bytes match the published pack, including headers, mips and tails.
+Correction 1.2.4 retains protected alpha at every mip. Unchanged download chunks keep
+their original 1.2.3 URLs; the new manifest lists the complete cumulative set. Each distinct DDS is stored once as dds/&lt;sha256&gt;.dds; the index
 maps it to its original archive and member names. There are no separate stock
 texture files, PAK files or PNG masters in these downloads. Protected channels
 inside replacement DDS files remain exactly as released.
