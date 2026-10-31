@@ -20,8 +20,9 @@ https://github.com/Maergoth/TextureQuest-Textures/releases/download/v1.2.3/textu
 
 The DDS bytes are extracted unchanged from the published packs, including headers,
 mips and tails. Each distinct DDS is stored once as dds/&lt;sha256&gt;.dds; the index
-maps it to its original archive and member names. There are no stock texture pixels,
-PAK files or PNG masters in these downloads.
+maps it to its original archive and member names. There are no separate stock
+texture files, PAK files or PNG masters in these downloads. Protected channels
+inside replacement DDS files remain exactly as released.
 
 **This does not switch the current app to DDS downloads.** That installer/runtime
 integration comes next. Existing PAK downloads and Replace mode remain available.

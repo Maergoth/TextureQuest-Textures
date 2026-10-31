@@ -144,7 +144,7 @@ def build(binding,out,*,limit=MAX_CHUNK,fixture=None,progress=lambda _:None):
         compressed_download_bytes=sum(c['bytes'] for c in chunks.files),index=ip,chunks=chunks.files,category_summary=categories.summary(named),
         provenance=dict(source_repository='Maergoth/TextureQuest',release_manifest_sha256=binding['inputs'][0]['sha256'] if fixture is None else 'fixture',
             graphics_index_sha256=binding['inputs'][2]['sha256'] if fixture is None else 'fixture',archives=source_archives),
-        payload='Only exact released replacement DDS files. Original texture pixels are not included.',current_installer_uses_this_source=False,
+        payload='Only exact released replacement DDS files. No separate stock texture files are included; protected channels and opaque tails remain as released.',current_installer_uses_this_source=False,
         qualification='Prepared data source for a future graphics-only installer; not a current installer manifest or a universal runtime coverage claim.')
     dump(out/'texture-source.json',summary)
     with (out/'SHA256SUMS.txt').open('x',encoding='utf-8',newline='\n') as f:
