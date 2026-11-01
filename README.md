@@ -7,7 +7,7 @@ Game PAKs stay unchanged. No manual texture mapping is needed.
 ## Downloads
 
 [Generated channels 1.3.0](https://github.com/Maergoth/TextureQuest-Textures/releases/tag/v1.3.0)
-requires TextureQuest **1.9.0 or newer**. Older installers cannot use this format.
+requires TextureQuest **1.9.1 or newer**. Older installers cannot use this format.
 
 - **channel-source.json**: download URLs, sizes and SHA-256 checksums.
 - **channel-index.json**: source identities, reconstruction recipes, categories and aliases.
